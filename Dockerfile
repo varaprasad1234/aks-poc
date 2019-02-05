@@ -1,7 +1,6 @@
 # Centos based container with Java and Tomcat
 FROM centos:latest
-MAINTAINER vara.chintapalli@microsoft.com
-
+MAINTAINER xxxxx
 # Install prepare infrastructure
 RUN yum -y upgrade
 RUN yum -y install wget
