@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ntOS:7.5:latest'
+  vmImage: 'CentOS:7.5:latest'
 
 variables:
   imageName: 'your-container-image-name:$(build.buildId)'
